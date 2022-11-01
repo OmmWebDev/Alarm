@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alarm - Vanilla JavaScript By Omm</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <section>
+		<div class="container">
+			<h2>Vanilla JS Alarm</h2>
+			<div class="time">
+				<div class="hours">00</div>
+				<div class="minutes">00</div>
+				<div class="seconds">00</div>
+				<div class="ampm">AM</div>
+			</div>
+			<div class="alarm-time">
+				<h3>Set Alarm Time</h3>
+				<div>
+					<select id="alarm-hour">00</select>
+					<select id="alarm-min">00</select>
+					<select id="alarm-sec">00</select>
+					<select id="alarm-ampm">
+						<option value="AM">AM</option>
+						<option value="PM">PM</option>
+					</select>
+				</div>
+			</div>
+			<div class="alarm-btn">
+				<button onclick="setAlarm()">Set Alarm</button>
+				<button onclick="clearAlarm()">Cancel Alarm</button>
+			</div>
+		</div>
+	</section>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+    
+</body>
+</html>
